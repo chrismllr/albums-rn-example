@@ -17,3 +17,6 @@ To build the app into the Simulator, at the root of this directory, run:
 ```
 react-native run-ios
 ```
+
+If you are using Android studio, follow the instructions to build starting here in the React-native docs:
+https://facebook.github.io/react-native/docs/getting-started.html#java-development-kit
