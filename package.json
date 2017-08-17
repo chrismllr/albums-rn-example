@@ -1,0 +1,36 @@
+{
+	"name": "albums",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest",
+		"flow": "flow"
+	},
+	"dependencies": {
+		"axios": "^0.16.2",
+		"glamorous-native": "^1.1.1",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.47.1",
+		"react-native-interactable": "^0.1.1",
+		"styled-components": "^2.1.2"
+	},
+	"devDependencies": {
+		"@dialexa/eslint-config-dialexa": "^4.0.0",
+		"babel-eslint": "^7.2.3",
+		"babel-preset-react-native": "2.1.0",
+		"eslint": "^4.4.1",
+		"eslint-plugin-flowtype": "^2.35.0",
+		"eslint-plugin-jest": "^20.0.3",
+		"eslint-plugin-react": "^7.2.0",
+		"flow-bin": "^0.52.0",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.12"
+	},
+	"jest": {
+		"preset": "react-native",
+		"transformIgnorePatterns": [
+			"node_modules/(?!react-native|glamorous-native)/"
+		]
+	}
+}

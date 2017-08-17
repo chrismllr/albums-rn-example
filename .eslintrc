@@ -1,0 +1,20 @@
+{
+  "extends": "@dialexa/eslint-config-dialexa/react",
+  "plugins": [
+    "flowtype",
+    "jest"
+  ],
+  "rules": {
+    "react/prop-types": 0,
+    "react/sort-comp": 0,
+    "flowtype/define-flow-type": 1
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": false
+    }
+  },
+  "env": {
+    "jest/globals": true
+  }
+}
